@@ -8,6 +8,7 @@
     background-size: cover;
     background-position: center -250px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 
