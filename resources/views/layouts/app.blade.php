@@ -23,7 +23,6 @@
             
             <div>
                 <div class="bg-black bg-opacity-30">
-
                     <div class="flex max-w-[68rem] w-full mx-auto">
                         <div class="w-2/3 py-[8rem] g-slate-300">
                             
@@ -41,8 +40,6 @@
                         
                         </div>
                     </div>
-
-
                 </div>
                 <div class="text-center bg-[#d8fccc] text-[#5b7f6d] text-[1rem] py-1">
                         <p>Diseños únicos hechos a mano | Precios exclusivos | 100% sostenible</p>
@@ -50,18 +47,26 @@
 
 
               
-            <main class="bg-gray-100 pb-10">
-                <div class="w-[68rem] mx-auto">
+                <main class="bg-gray-100 pb-10">
+                    <div class="w-[68rem] mx-auto">
+                        <div class="py-7">
+                            <h1 class="text-[1.6rem] text-gray-900">{{ $header }}</h1>
+                        </div> 
+                        {{ $slot }}
+                    </div>
+                </main>
+            </div>
 
-               
-
-                    <div class="py-7">
-                        <h1 class="text-[1.6rem] text-gray-900">{{ $header }}</h1>
-                    </div> 
-                    {{ $slot }}
-                 </div>
-            </main>
-        </div>
+            <footer class="bg-[#457c00]">
+                <div class="pt-16 pb-20 border border-b-[#6f91476b]">
+                    <p class="text-white text-center text-xl">Enlaces rápidos</p>
+                </div>
+                  <div class="py-20">
+                    <p class="text-white text-center text-xl">Enlaces rápidos</p>
+                </div>
+            </footer>
+        
+        
         
         
         </div>
