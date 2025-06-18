@@ -61,8 +61,26 @@
                 <div class="pt-16 pb-20 border border-b-[#6f91476b]">
                     <p class="text-white text-center text-xl">Enlaces rápidos</p>
                 </div>
-                  <div class="py-20">
-                    <p class="text-white text-center text-xl">Enlaces rápidos</p>
+                  <div class="flex justify-center py-10 text-white text-[0.7rem]
+                        [&>a]:text-white
+                        [&>a]:text-[0.7rem]
+                        [&>a:hover]:underline
+                        [&>a]:before:content-['-']
+                        [&>a]:before:mx-3
+                        [&>a]:before:inline-block
+                        [&>a]:before:no-underline
+                        [&>a:first-child]:before:content-none
+                        ">
+                        <div>
+                            <span class="">© 2025, </span>
+                            <a href="/" class="hover:underline">MossArtDeco</a>
+                        </div>
+                        <a href="/aa" class="">Política de privacidad</a>
+                        <a href="/aaa" class="">Información de contacto</a>
+                        <a href="/aaaaa" class="">Política de reembolso</a>
+                        <a href="/" class="">Aviso legal</a>
+                        <a href="/" class="">Términos del servicio</a>
+
                 </div>
             </footer>
         
